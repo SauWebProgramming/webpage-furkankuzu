@@ -1,5 +1,7 @@
-.carouselim{
-    height: 85%;
-    width: 85%;
-    text-align: center;
+.sliderr{
+    height: 800px;
+    width: 800px;
+    opacity: 0.8;
 }
+h1{text-align: center;}
+h6{text-align: center;}
