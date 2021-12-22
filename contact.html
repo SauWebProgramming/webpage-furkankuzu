@@ -9,7 +9,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Sehrimiz</a>
+            <a class="navbar-brand" href="index.html">Bursa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,18 +25,110 @@
                   <a class="nav-link" href="gallery.html">Galeri</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="contact.html">Iletisim</a>
+                  <a class="nav-link active" href="contact.html">İletişim</a>
                 </li>
                 
               </ul>
             </div>
           </div>
         </nav>
-        <footer class="footer mt-auto py-3 bg-light">
-          <div class="container">
-            <span class="text-muted">Tüm hakları saklıdır. 2021 &copy; Furkan Kuzu</span>
+        <center><img style="padding: 7px; margin-top: 70px;" class="center"src="img/contact.jpg" height="300px"></center>
+        <!--Section: Contact v.2-->
+<section class="mb-4" style="padding-left: 25px;">
+
+  <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">İletişime Geçin</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Herhangi bir sorunuz mu var? 
+    Lütfen bizimle doğrudan iletişime geçmek için formu doldurun.</p>
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="contact.html" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Adınız</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Mail adresiniz</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Konu</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Mesaj</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Gönder</a>
           </div>
-            
-        </footer>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>Bursa, 16100, Turkiye</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 90 538 524 0972</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>furkan.kuzu2@ogr.sakarya.edu.tr</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+
     </body>
 </html>
